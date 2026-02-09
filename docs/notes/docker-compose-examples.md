@@ -131,5 +131,5 @@ WARNING: Watchfiles detected changes in 'app/main.py' but reload is not enabled
 
 1. **Desenvolvimento**: Use `docker compose up` para hot-reload
 2. **Testes**: Use `docker compose -f docker-compose.yml up` para simular produção
-3. **Deploy**: Use `./deploy-gcp.sh` para Cloud Run
+3. **Deploy**: Use `./ops/ops/deploy-gcp.sh` para Cloud Run
 4. **Validação**: Use smoke tests para validar antes do deploy
