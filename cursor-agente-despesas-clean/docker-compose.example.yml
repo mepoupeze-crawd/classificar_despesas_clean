@@ -1,0 +1,52 @@
+# docker-compose.yml de exemplo para desenvolvimento local
+# Demonstra como rodar a aplicação em container com configurações personalizadas
+
+version: '3.8'
+
+services:
+  expense-classification:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      # Configurações básicas
+      - PORT=8080
+      - MODEL_DIR=./modelos
+      
+      # Thresholds de classificação
+      - SIMILARITY_THRESHOLD=0.70
+      - MODEL_THRESHOLD=0.70
+      
+      # Feature flags
+      # AI Fallback está habilitado por padrão
+      # Para desabilitar: defina ENABLE_FALLBACK_AI=false
+      # Requer pelo menos uma API key (OPENAI_API_KEY ou ANTHROPIC_API_KEY) para funcionar
+      - ENABLE_FALLBACK_AI=true
+      - ENABLE_DETERMINISTIC_RULES=false
+      - ENABLE_TFIDF_SIMILARITY=false
+      - USE_PIPELINE_MODEL=true
+      
+      # Arquivo de dados
+      - TRAINING_DATA_FILE=modelo_despesas_completo.csv
+      
+      # API Keys para AI Fallback (opcional - descomente e configure se ENABLE_FALLBACK_AI=true)
+      # Requer pelo menos uma: OPENAI_API_KEY ou ANTHROPIC_API_KEY
+      # SERPAPI_API_KEY é opcional mas melhora a qualidade da classificação
+      # - OPENAI_API_KEY=your_openai_api_key_here
+      # - ANTHROPIC_API_KEY=your_anthropic_api_key_here
+      # - SERPAPI_API_KEY=your_serpapi_key_here
+    
+    volumes:
+      # Montar modelos se existirem localmente
+      - ./modelos:/app/modelos:ro
+      # Montar dados de treinamento se existirem
+      - ./modelo_despesas_completo.csv:/app/modelo_despesas_completo.csv:ro
+    
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    
+    restart: unless-stopped

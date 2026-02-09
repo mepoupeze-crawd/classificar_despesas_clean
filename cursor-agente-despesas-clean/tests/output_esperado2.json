@@ -1,0 +1,448 @@
+{
+  "items": [
+    {
+      "date": "2025-04-30",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "2048.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 6
+    },
+    {
+      "date": "2025-06-03",
+      "description": "PASSARO AZUL COMER",
+      "amount": "266.35",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-06-03",
+      "description": "GALLERIST COM IMP",
+      "amount": "125.82",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-06-03",
+      "description": "ZARA BRASIL LTDA",
+      "amount": "135.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-06-12",
+      "description": "SEPHORA CIDJARDIN",
+      "amount": "83.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-07-01",
+      "description": "BRUNA CUTAIT",
+      "amount": "487.74",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 7,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-09-29",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-30",
+      "description": "MIRELA PAES E DOCES",
+      "amount": "23.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-01",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "32.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-04",
+      "description": "DM*mondaycom",
+      "amount": "330.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-06",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-11",
+      "description": "IFD*SCARABEUS OPERACOE",
+      "amount": "54.58",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-12",
+      "description": "APPLE.COM/BILL",
+      "amount": "64.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-12",
+      "description": "IFD*LE JAZZ BOULANGERI",
+      "amount": "55.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-13",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-20",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-27",
+      "description": "APPLE.COM/BILL",
+      "amount": "71.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-27",
+      "description": "APPLE.COM/BILL",
+      "amount": "66.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-03-31",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "1252.39",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 7
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO",
+      "amount": "269.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 6
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO 209,93",
+      "amount": "209.93",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-21",
+      "description": "CAROL FARINA",
+      "amount": "391.75",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 6
+    },
+    {
+      "date": "2025-10-05",
+      "description": "UNICEF*UNICEF BRASIL",
+      "amount": "30.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-23",
+      "description": "RAPPI*Rappi Brasil Int",
+      "amount": "24.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-18",
+      "description": "UBER* TRIP",
+      "amount": "26.98",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-10-16",
+      "description": "SEG CARTAO PROTEGIDO",
+      "amount": "10.19",
+      "last4": null,
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    }
+  ],
+  "stats": {
+    "total_lines": 218,
+    "matched": 26,
+    "rejected": 38,
+    "sum_abs_values": "6222.61",
+    "sum_saida": "6012.68",
+    "sum_entrada": "209.93",
+    "by_card": {
+      "9826": {
+        "control_total": "4006.57",
+        "calculated_total": "4006.57",
+        "delta": "0.00"
+      },
+      "7430": {
+        "control_total": "1759.01",
+        "calculated_total": "1759.01",
+        "delta": "0.00"
+      },
+      "1899": {
+        "control_total": "26.98",
+        "calculated_total": "26.98",
+        "delta": "0.00"
+      },
+      "unknown": {
+        "control_total": "0",
+        "calculated_total": "10.19",
+        "delta": "10.19"
+      }
+    }
+  },
+  "rejects": [
+    {
+      "line": "O total da sua fatura é: Com vencimento em: Limite total de crédito:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Preparamos outras opçõesdepagamento abaixo eaofinal dafatura, válidas atéadatadevencimento:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Pagamento mínimo: Parcelas fixas:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "+ 10x R$ 691,40",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Valor em reais % do total financiado Valor em reais % do total financiado",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Valor total financiado R$ 5.213,30 100,00% Valor total financiado R$ 5.902,04 100,00%",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Encargos R$ 547,40 - Valor solicitado R$ 5.802,75 98,32 %",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "IOF R$ 36,32 - IOF R$ 99,29 1,68 %",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Total a pagar R$ 6.386,47 - Total a pagar R$ 7.605,40 -",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Juros: 10,50 %am - 236,96%aa CET: 11,13 %am - 260,93 %aa Juros Máximos: 5,45 %am - 90,72 %aa CET Máximo: 6,30 %am - 110,29 %aa",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "00102236307/0401043",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Estamos lhe enviando esta fatura para simples conferência. Outra via desta mesma fatura foi",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "enviada para débito automático em conta corrente, conforme sua autorização.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Caso necessite, poderá suspender o débito da sua fatura mensal até o dia anterior à data do",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "vencimento, podendo ainda optar pelo pagamento mínimo, pelo financiamento em parcelas fixas",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "utilizando o Parcelamento da Fatura ou pelo pagamento total. Se o débito não cair em um dia útil,",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "a suspensão deverá ser efetuada 1 dia útil antes da data do vencimento. No próximo mês, o débito",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "automático ocorrerá normalmente.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Para conhecer os detalhes e contratar o Parcelamento de Fatura, acesse a internet ou ligue para",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "a Central de Atendimento do cartão.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Caso você pague um valor entre o mínimo e o total de sua fatura, o saldo restante será cobrado na próxima fatura com juros e impostos. O pagamento",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "do valor total é sempre a melhor opção porque não há cobranças de juros.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "O pagamento obrigatório é composto pelo saldo do crédito rotativo e respectivos encargos incidentes no período (R$ 0,00), prestações referentes a",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "parcelamentos do saldo devedor de períodos anteriores (R$ 0,00) e valor mínimo de novas transações (R$ 589,45). Para entender mais sobre o",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "pagamento obrigatório e o pagamento mínimo, acesse seu contrato e a aba \"Serviços\" no site Itaú Cartões.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Consulte outras opções de parcelamento no final da sua fatura.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Previsão do próximo fechamento: 30/11/2025.",
+      "reason": "Linha incompleta (tem data)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "3003 3030",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "0800 720 3030",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Continua...",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "PC - 00 01290 VK045 31/10/2025 VKRPOF01 G4629 0013723",
+      "reason": "Linha incompleta (tem data)"
+    },
+    {
+      "line": "Crediário (próximo período)",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    }
+  ]
+}

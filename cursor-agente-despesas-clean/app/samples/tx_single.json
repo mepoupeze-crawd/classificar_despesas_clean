@@ -1,0 +1,16 @@
+[
+  {
+    "id": "string",
+    "description": "Olea Cj Restaurante Lt",
+    "amount": 10,
+    "date": "2024-10-18T10:00:00",
+    "card_number": "1471",
+    "card_holder": "Joao",
+    "origin": "credito",
+    "installments": 3,
+    "installment_number": 1,
+    "metadata": {
+      "additionalProp1": {}
+    }
+  }
+]

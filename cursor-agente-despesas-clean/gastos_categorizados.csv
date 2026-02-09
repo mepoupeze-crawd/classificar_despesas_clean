@@ -1,0 +1,148 @@
+Aonde Gastou,Natureza do Gasto,Confiança,Método,Valor Total,Parcelas,No da Parcela,Valor Unitário,tipo,Comp,cartao
+07/08/2025 - Barbearia,duvida,0.3,fallback,"140,00",,,"140,00",crédito,Gastos Joao,Final 0001 - USUARIO EXEMPLO
+06/08/2025 - Evo*Usregen Ltda (01/03),Viagens / Férias,1.0,similarity_engine,"1.333,34",03,01,"1.333,34",crédito,Gastos Joao,Final 0001 - USUARIO EXEMPLO
+06/06/2025 - Hb - Imares (03/04),Viagens / Férias,1.0,similarity_engine,"1330,44",04,03,"332,61",crédito,Gastos Joao,Final 0001 - USUARIO EXEMPLO
+27/08/2025 - Anuidade Diferenciad(01/12),"Gastos com mensalidades (Gympass, Spotfy, Unicef e Rappi)",1.0,similarity_engine,"1999,92",12,01,"166,66",crédito,Gastos Joao,Final 0002 - USUARIO EXEMPLO
+04/08/2025 - Deb Autom De Fatura Em C/,Casamento,1.0,similarity_engine,"-9.212,72",,,"-9.212,72",crédito,Gastos Joao,Final 0002 - USUARIO EXEMPLO
+18/08/2025 - Uber Uber *Trip Help U,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"17,84",,,"17,84",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+18/08/2025 - Gamestop,duvida,0.3,fallback,"5.052,37",,,"5.052,37",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+18/08/2025 - Iof Despesa No Exterior,duvida,0.3,error,"176,83",,,"176,83",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+17/08/2025 - Esfera,duvida,0.3,fallback,"159,12",,,"159,12",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+16/08/2025 - Urbia Cataratas S A,duvida,0.3,fallback,"10,00",,,"10,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+16/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"32,63",,,"32,63",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+16/08/2025 - Uber Uber *Trip Help U,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"68,44",,,"68,44",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+16/08/2025 - Apt Comercio De Combus,Restaurantes/ Bares/ Lanchonetes,1.0,similarity_engine,"18,00",,,"18,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+15/08/2025 - Pessoa R Dias,duvida,0.3,fallback,"22,00",,,"22,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+15/08/2025 - Azul Linhas Aereas Bra,duvida,0.3,fallback,"45,00",,,"45,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+13/08/2025 - Tembici,duvida,0.3,fallback,"22,05",,,"22,05",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+12/08/2025 - Tembici,duvida,0.3,fallback,"6,90",,,"6,90",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+12/08/2025 - Gibraltar Gasolinas E,duvida,0.3,fallback,"100,00",,,"100,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+12/08/2025 - Uber Uber *Trip Help U,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"31,72",,,"31,72",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+11/08/2025 - Ec Pinheiros,Gastos pessoais,1.0,similarity_engine,"3,00",,,"3,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+10/08/2025 - Feito A Mao Pao Artesa,Supermercado,1.0,similarity_engine,"64,50",,,"64,50",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+10/08/2025 - Wolthers Empreendiment,duvida,0.3,fallback,"700,00",,,"700,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+10/08/2025 - Rcp Comercio De Alimen,Restaurantes/ Bares/ Lanchonetes,1.0,similarity_engine,"20,00",,,"20,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+09/08/2025 - Feito A Mao Pao Artesa,Supermercado,1.0,similarity_engine,"63,60",,,"63,60",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+09/08/2025 - Feito A Mao Pao Artesa,Supermercado,1.0,similarity_engine,"25,00",,,"25,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+09/08/2025 - Feito A Mao Pao Artesa,Supermercado,1.0,similarity_engine,"9,80",,,"9,80",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+09/08/2025 - Juquehy Praia Hotel,Farmácia,0.9,rules_engine,"198,00",,,"198,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+08/08/2025 - Icaseipresentes,duvida,0.3,fallback,"503,07",,,"503,07",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+07/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"26,11",,,"26,11",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+07/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"14,00",,,"14,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+07/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"16,96",,,"16,96",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+07/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"32,02",,,"32,02",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+06/08/2025 - Ifd*Papila Restaurante,duvida,0.3,fallback,"53,19",,,"53,19",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+04/08/2025 - Trela,duvida,0.3,fallback,"165,00",,,"165,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+04/08/2025 - Iugu*Goperltda,duvida,0.3,fallback,"299,00",,,"299,00",crédito,Gastos Joao,Final 0003 - @ USUARIO EXEMPLO
+24/08/2025 - Ifd*G P L Pizza Deliv,duvida,0.3,fallback,"254,99",,,"254,99",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+24/08/2025 - Uber Uber *Trip Help U,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"19,71",,,"19,71",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+24/08/2025 - Ifd*Big Kahuna Restaur,duvida,0.3,fallback,"55,31",,,"55,31",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+23/08/2025 - Livelo (01/04),Viagens / Férias,1.0,similarity_engine,"597,00",04,01,"149,25",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+23/08/2025 - Latam Air,duvida,0.3,fallback,"311,71",,,"311,71",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+23/08/2025 - R2mp Sarjeta Servicos,duvida,0.3,fallback,"61,02",,,"61,02",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+23/08/2025 - R2mp Sarjeta Servicos,duvida,0.3,fallback,"88,70",,,"88,70",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+23/08/2025 - R2mp Sarjeta Servicos,duvida,0.3,fallback,"51,98",,,"51,98",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+22/08/2025 - Recargapay *Bilhunico,duvida,0.3,fallback,"50,00",,,"50,00",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+21/08/2025 - Livelo Transf Contas(01/05),Cuidados Pessoais (Nutricionista / Medico / Suplemento),1.0,similarity_engine,"1.252,22",05,01,"1.252,22",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+21/08/2025 - Swift*Swiftonline,duvida,0.3,fallback,"278,10",,,"278,10",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+21/08/2025 - Openai,duvida,0.3,fallback,"34,80",,,"34,80",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+21/08/2025 - Iof Despesa No Exterior,duvida,0.3,error,"1,22",,,"1,22",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+20/08/2025 - Anusha,duvida,0.3,fallback,"30,00",,,"30,00",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+19/08/2025 - Clube Latam Pass Matri,"Gastos com mensalidades (Gympass, Spotfy, Unicef e Rappi)",1.0,similarity_engine,"40,90",,,"40,90",crédito,Gastos Joao,Final 0004 - @ USUARIO EXEMPLO
+03/08/2025 - Nespresso,Supermercado,1.0,similarity_engine,"7,95",,,"7,95",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+03/08/2025 - Oxxo Princesa Isabel,duvida,0.3,fallback,"19,98",,,"19,98",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+03/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"21,79",,,"21,79",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+02/08/2025 - Mg74,duvida,0.3,fallback,"256,95",,,"256,95",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+02/08/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"11,94",,,"11,94",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+02/08/2025 - Dl*99 Ride,Combustível/ Passagens/ Uber / Sem Parar,1.0,similarity_engine,"12,92",,,"12,92",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+01/08/2025 - Pg *99 Ride,Combustível/ Passagens/ Uber / Sem Parar,0.7444764189914364,similarity_engine,"19,04",,,"19,04",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+01/08/2025 - Milk Mellow Burgers E,duvida,0.3,fallback,"112,15",,,"112,15",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+31/07/2025 - Recargapay *Bilhunico,duvida,0.3,fallback,"50,00",,,"50,00",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+31/07/2025 - Zig*Beco Do Espeto,Restaurantes/ Bares/ Lanchonetes,1.0,similarity_engine,"148,00",,,"148,00",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+30/07/2025 - Htm*Agencia Go Ltda (01/06),Gastos pessoais,0.8184992044967435,similarity_engine,"5065,38",06,01,"844,23",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+30/07/2025 - Apple Com/Bill,Viagens / Férias,1.0,similarity_engine,"4,90",,,"4,90",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+30/07/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"18,98",,,"18,98",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+30/07/2025 - Dl*99 Ride,Combustível/ Passagens/ Uber / Sem Parar,1.0,similarity_engine,"18,48",,,"18,48",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+30/07/2025 - Dl*99 Ride,Combustível/ Passagens/ Uber / Sem Parar,1.0,similarity_engine,"5,00",,,"5,00",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+29/07/2025 - Oxxo Princesa Isabel,duvida,0.3,fallback,"19,89",,,"19,89",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+27/07/2025 - Zig*Areia Malibu,Restaurantes/ Bares/ Lanchonetes,1.0,similarity_engine,"37,79",,,"37,79",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+27/07/2025 - Zig*Areia Malibu,Restaurantes/ Bares/ Lanchonetes,1.0,similarity_engine,"56,70",,,"56,70",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+27/07/2025 - Uber* Trip,Combustível/ Passagens/ Uber / Sem Parar,0.9,rules_engine,"17,93",,,"17,93",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+27/07/2025 - Dl*99 Ride,Combustível/ Passagens/ Uber / Sem Parar,1.0,similarity_engine,"13,60",,,"13,60",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+21/07/2025 - Pessoa S Cardoso (02/02),Gastos com presentes,1.0,similarity_engine,"500,00",02,02,"250,00",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+17/07/2025 - Amazon Br (02/05),Gastos com casa (outros),0.7763741197686534,similarity_engine,"263,50",05,02,"52,70",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+05/07/2025 - M878 Ecomm (02/05),Cuidados Pessoais (Nutricionista / Medico / Suplemento),1.0,similarity_engine,"283,80",05,02,"56,76",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+02/06/2025 - Healthycann (03/06),Gastos com presentes,1.0,similarity_engine,"1048,98",06,03,"174,83",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+18/05/2025 - Guid (04/06),Gastos com presentes,1.0,similarity_engine,"1699,26",06,04,"283,21",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+25/06/2024 - Zp *Alig Invisalign (14/18),duvida,0.3,fallback,"4413,96",18,14,"245,22",crédito,Gastos Joao,Final 0005 - @ USUARIO EXEMPLO
+18/08/2025 - Vivianecampos,planilha comp,0.85,rules_engine,"32,00",,,"32,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+18/08/2025 - Sanmahotel,planilha comp,0.85,rules_engine,"1.001,00",,,"1.001,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+17/08/2025 - Parque Das Aves,planilha comp,0.85,rules_engine,"180,00",,,"180,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+16/08/2025 - Tres Fronteiras Navega,planilha comp,0.85,rules_engine,"20,00",,,"20,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+16/08/2025 - Tres Fronteiras Navega,planilha comp,0.85,rules_engine,"40,00",,,"40,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+16/08/2025 - Macuco Safari,planilha comp,0.85,rules_engine,"768,00",,,"768,00",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+16/08/2025 - Porto Fino Restaurante,planilha comp,0.85,rules_engine,"379,51",,,"379,51",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+15/08/2025 - Belmond Hotel Das Cata,planilha comp,0.85,rules_engine,"987,80",,,"987,80",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+08/08/2025 - Posto Ortega,planilha comp,0.85,rules_engine,"117,83",,,"117,83",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+01/08/2025 - Olea Cj Restaurante Lt,planilha comp,0.85,rules_engine,"233,85",,,"233,85",crédito,Gastos Aline,Final 0006 - MARIA S EXEMPLO
+25/08/2025 - Fit Food Gf4 Bar E Lan,Gastos Aline,0.85,rules_engine,"104,16",,,"104,16",crédito,Gastos Aline,Final 0007 - MARIA S EXEMPLO
+25/08/2025 - Milton,Gastos Aline,0.85,rules_engine,"44,96",,,"44,96",crédito,Gastos Aline,Final 0007 - MARIA S EXEMPLO
+23/08/2025 - Esporte Clube Pinheiro,Gastos Aline,0.85,rules_engine,"16,60",,,"16,60",crédito,Gastos Aline,Final 0007 - MARIA S EXEMPLO
+23/08/2025 - Spazio Capelli,Gastos Aline,0.85,rules_engine,"179,00",,,"179,00",crédito,Gastos Aline,Final 0007 - MARIA S EXEMPLO
+22/08/2025 - Mm Campo Belo,Gastos Aline,0.85,rules_engine,"278,55",,,"278,55",crédito,Gastos Aline,Final 0007 - MARIA S EXEMPLO
+16/08/2025 - Petlove Saud*Petlove S,planilha comp,0.85,rules_engine,"52,11",,,"52,11",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+15/08/2025 - Ebn *Spotify,planilha comp,0.85,rules_engine,"34,90",,,"34,90",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+15/08/2025 - Netflix Entretenimento,planilha comp,0.85,rules_engine,"44,90",,,"44,90",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+15/08/2025 - Smiles Clube Smiles,planilha comp,0.85,rules_engine,"42,00",,,"42,00",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+15/08/2025 - Amazonprimebr,planilha comp,0.85,rules_engine,"19,90",,,"19,90",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+14/08/2025 - Dm *Helphbomaxcom,planilha comp,0.85,rules_engine,"39,90",,,"39,90",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+12/08/2025 - Pop 12ago 16h31min,planilha comp,0.85,rules_engine,"28,90",,,"28,90",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+11/08/2025 - Shopper,planilha comp,0.85,rules_engine,"186,23",,,"186,23",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+11/08/2025 - Sanma Hotel (01/03),planilha comp,0.85,rules_engine,"1.509,09",03,01,"1.509,09",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+07/08/2025 - Pg *99 Ride,planilha comp,0.85,rules_engine,"16,12",,,"16,12",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+05/08/2025 - Claro Pgto Fatu Mensal,planilha comp,0.85,rules_engine,"273,73",,,"273,73",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+04/08/2025 - Shopper,planilha comp,0.85,rules_engine,"196,84",,,"196,84",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+04/08/2025 - Shopper,planilha comp,0.85,rules_engine,"63,48",,,"63,48",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+04/08/2025 - Cataratas*Sa*Urbia*Cat,planilha comp,0.85,rules_engine,"210,00",,,"210,00",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+01/08/2025 - Pet Love*Order 1007151,planilha comp,0.85,rules_engine,"183,48",,,"183,48",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+29/07/2025 - Joel Souza Mat Const(01/03),planilha comp,0.85,rules_engine,"2000,04",03,01,"666,68",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+27/07/2025 - Nespresso,planilha comp,0.85,rules_engine,"99,00",,,"99,00",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+06/07/2025 - Pet Love*Order 10845(02/02),planilha comp,0.85,rules_engine,"284,92",02,02,"142,46",crédito,Gastos Aline,Final 0008 - @ MARIA S EXEMPLO
+01/09/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,03",,,"-0,03",débito,,CC - 01/09/2025 a 01/08/2025
+01/09/2025 - PIX RECEBIDO                       Pessoa A Silva,débito,0.95,rules_engine,"-12,21",,,"-12,21",débito,,CC - 01/09/2025 a 01/08/2025
+01/09/2025 - PIX ENVIADO                        Pessoa B Santos,débito,0.95,rules_engine,"30,00",,,"30,00",débito,,CC - 01/09/2025 a 01/08/2025
+01/09/2025 - PIX ENVIADO                        Wise Brasil Corretora de,débito,0.95,rules_engine,"339,82",,,"339,82",débito,,CC - 01/09/2025 a 01/08/2025
+01/09/2025 - PIX ENVIADO                        Usuario Exemplo,débito,0.95,rules_engine,"27,93",,,"27,93",débito,,CC - 01/09/2025 a 01/08/2025
+29/08/2025 - CREDITO DE SALARIO                 CNPJ 000000000000000,débito,0.95,rules_engine,"-22708,78",,,"-22708,78",débito,,CC - 01/09/2025 a 01/08/2025
+25/08/2025 - PIX ENVIADO                        Pessoa C Oliveira,débito,0.95,rules_engine,"162,48",,,"162,48",débito,,CC - 01/09/2025 a 01/08/2025
+25/08/2025 - PIX RECEBIDO                       SUL AMERICA SERVICOS DE S,débito,0.95,rules_engine,"-600,00",,,"-600,00",débito,,CC - 01/09/2025 a 01/08/2025
+22/08/2025 - PIX ENVIADO                        D DOS SANTOS OLIVEIRA  AS,débito,0.95,rules_engine,"80,00",,,"80,00",débito,,CC - 01/09/2025 a 01/08/2025
+22/08/2025 - PIX ENVIADO                        WISE BRASIL CORRETORA DE,débito,0.95,rules_engine,"57,02",,,"57,02",débito,,CC - 01/09/2025 a 01/08/2025
+21/08/2025 - PIX ENVIADO                        WISE BRASIL CORRETORA DE,débito,0.95,rules_engine,"57,14",,,"57,14",débito,,CC - 01/09/2025 a 01/08/2025
+20/08/2025 - DEBITO AUT. CONTA GAS              COMGAS,débito,0.95,rules_engine,"210,64",,,"210,64",débito,,CC - 01/09/2025 a 01/08/2025
+18/08/2025 - PIX RECEBIDO                       Pessoa E Lima,débito,0.95,rules_engine,"-500,00",,,"-500,00",débito,,CC - 01/09/2025 a 01/08/2025
+18/08/2025 - PIX ENVIADO                        Pessoa F Souza,débito,0.95,rules_engine,"4,00",,,"4,00",débito,,CC - 01/09/2025 a 01/08/2025
+15/08/2025 - PIX ENVIADO                        YELUM SEGUROS S A,débito,0.95,rules_engine,"219,77",,,"219,77",débito,,CC - 01/09/2025 a 01/08/2025
+15/08/2025 - PAGAMENTO DE TRIBUTO PMSP          INTERNET PM SAO PAULO,débito,0.95,rules_engine,"454,53",,,"454,53",débito,,CC - 01/09/2025 a 01/08/2025
+15/08/2025 - CREDITO DE SALARIO                 CNPJ 000000000000000,débito,0.95,rules_engine,"-1220,00",,,"-1220,00",débito,,CC - 01/09/2025 a 01/08/2025
+15/08/2025 - PIX ENVIADO                        Marcelo Taxi Foz,débito,0.95,rules_engine,"18,00",,,"18,00",débito,,CC - 01/09/2025 a 01/08/2025
+11/08/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,04",,,"-0,04",débito,,CC - 01/09/2025 a 01/08/2025
+11/08/2025 - PAGAMENTO DE BOLETO OUTROS BANCOS  ZANGARI GESTAO DE SERVICO,débito,0.95,rules_engine,"1178,52",,,"1178,52",débito,,CC - 01/09/2025 a 01/08/2025
+11/08/2025 - TRANSF VALOR P/ CONTA DIF TITULAR  Pessoa O Araujo,débito,0.95,rules_engine,"590,00",,,"590,00",débito,,CC - 01/09/2025 a 01/08/2025
+11/08/2025 - DEBITO AUT. CTA ENERGIA ELETRICA   ENEL ENERGIA,débito,0.95,rules_engine,"687,38",,,"687,38",débito,,CC - 01/09/2025 a 01/08/2025
+08/08/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,02",,,"-0,02",débito,,CC - 01/09/2025 a 01/08/2025
+08/08/2025 - PIX ENVIADO                        JUQUEHY PRAIA HOTEL LTDA,débito,0.95,rules_engine,"56,10",,,"56,10",débito,,CC - 01/09/2025 a 01/08/2025
+08/08/2025 - PIX ENVIADO                        Pessoa N Martins,débito,0.95,rules_engine,"1040,00",,,"1040,00",débito,,CC - 01/09/2025 a 01/08/2025
+08/08/2025 - PAGAMENTO DE BOLETO OUTROS BANCOS  ESPORTE CLUBE PINHEIROS,débito,0.95,rules_engine,"590,00",,,"590,00",débito,,CC - 01/09/2025 a 01/08/2025
+06/08/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,03",,,"-0,03",débito,,CC - 01/09/2025 a 01/08/2025
+06/08/2025 - PIX ENVIADO                        Usuario Exemplo,débito,0.95,rules_engine,"4709,71",,,"4709,71",débito,,CC - 01/09/2025 a 01/08/2025
+06/08/2025 - PIX ENVIADO                        Wolthers Empreendimentos,débito,0.95,rules_engine,"700,00",,,"700,00",débito,,CC - 01/09/2025 a 01/08/2025
+05/08/2025 - PIX ENVIADO                        Pessoa Q Almeida,débito,0.95,rules_engine,"17,01",,,"17,01",débito,,CC - 01/09/2025 a 01/08/2025
+05/08/2025 - PEDAGIO ELETRONICO - SEM PARAR     SEM PARAR,débito,0.95,rules_engine,"479,45",,,"479,45",débito,,CC - 01/09/2025 a 01/08/2025
+04/08/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,17",,,"-0,17",débito,,CC - 01/09/2025 a 01/08/2025
+04/08/2025 - DEBITO AUT. FAT.CARTAO MASTER CARD FINAL 8073,débito,0.95,rules_engine,"9212,72",,,"9212,72",débito,,CC - 01/09/2025 a 01/08/2025
+04/08/2025 - PIX ENVIADO                        WISE BRASIL CORRETORA DE,débito,0.95,rules_engine,"138,75",,,"138,75",débito,,CC - 01/09/2025 a 01/08/2025
+04/08/2025 - PIX ENVIADO                        Usuario Exemplo,débito,0.95,rules_engine,"163,20",,,"163,20",débito,,CC - 01/09/2025 a 01/08/2025
+01/08/2025 - REMUNERACAO APLICACAO AUTOMATICA,débito,0.95,rules_engine,"-0,04",,,"-0,04",débito,,CC - 01/09/2025 a 01/08/2025
+01/08/2025 - PIX ENVIADO                        Pessoa P Rocha,débito,0.95,rules_engine,"73,00",,,"73,00",débito,,CC - 01/09/2025 a 01/08/2025
+01/08/2025 - PIX ENVIADO                        WISE BRASIL CORRETORA DE,débito,0.95,rules_engine,"349,56",,,"349,56",débito,,CC - 01/09/2025 a 01/08/2025

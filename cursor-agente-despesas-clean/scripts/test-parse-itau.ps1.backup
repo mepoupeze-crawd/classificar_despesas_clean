@@ -1,0 +1,223 @@
+﻿# Script PowerShell para testar parsing de PDF ItaÃº (sem jq)
+# Equivalente ao comando: curl -F "file=@./fatura_cartao.pdf" http://localhost:8081/parse_itau | jq .
+
+$ErrorActionPreference = "Stop"
+
+$API_URL = if ($env:API_URL) { $env:API_URL } else { "http://localhost:8081" }
+$PDF_PATH = if ($env:PDF_PATH) { $env:PDF_PATH } else { "./fatura_cartao.pdf" }
+
+Write-Host "ðŸ§ª Testando parsing de PDF ItaÃº" -ForegroundColor Cyan
+Write-Host "================================="
+Write-Host "API URL: $API_URL"
+Write-Host "PDF: $PDF_PATH"
+Write-Host ""
+
+# Verificar se PDF existe
+if (-not (Test-Path $PDF_PATH)) {
+    Write-Host "âŒ Erro: PDF nÃ£o encontrado em $PDF_PATH" -ForegroundColor Red
+    Write-Host "ðŸ’¡ Certifique-se de que o arquivo existe ou especifique o caminho:" -ForegroundColor Yellow
+    Write-Host "   `$env:PDF_PATH = 'caminho/para/fatura_cartao.pdf'" -ForegroundColor Yellow
+    exit 1
+}
+
+# 1. Testar health check primeiro
+Write-Host "1ï¸âƒ£ Testando health check..." -ForegroundColor Yellow
+try {
+    $healthResponse = Invoke-RestMethod -Uri "$API_URL/healthz" -Method GET -UseBasicParsing -ErrorAction Stop
+    if ($healthResponse.status -eq "ok") {
+        Write-Host "âœ… Health check OK" -ForegroundColor Green
+    } else {
+        Write-Host "âŒ Health check falhou: $($healthResponse | ConvertTo-Json)" -ForegroundColor Red
+        exit 1
+    }
+} catch {
+    Write-Host "âŒ Erro no health check: $($_.Exception.Message)" -ForegroundColor Red
+    Write-Host "ðŸ’¡ Certifique-se de que a API estÃ¡ rodando em $API_URL" -ForegroundColor Yellow
+    exit 1
+}
+
+Write-Host ""
+
+# 2. Testar parsing de PDF
+Write-Host "2ï¸âƒ£ Testando parsing de PDF..." -ForegroundColor Yellow
+Write-Host "   Arquivo: $PDF_PATH" -ForegroundColor Gray
+Write-Host "   Tamanho: $([math]::Round((Get-Item $PDF_PATH).Length / 1KB, 2)) KB" -ForegroundColor Gray
+Write-Host ""
+
+try {
+    # Usar System.Net.Http para multipart/form-data (mais confiÃ¡vel)
+    Add-Type -AssemblyName System.Net.Http -ErrorAction SilentlyContinue
+    
+    Write-Host "   Enviando requisiÃ§Ã£o..." -ForegroundColor Gray
+    
+    # MÃ©todo 1: Tentar usar System.Net.Http.HttpClient (mais confiÃ¡vel)
+    try {
+        $httpClient = New-Object System.Net.Http.HttpClient
+        $content = New-Object System.Net.Http.MultipartFormDataContent
+        
+        $fileBytes = [System.IO.File]::ReadAllBytes($PDF_PATH)
+        $fileName = [System.IO.Path]::GetFileName($PDF_PATH)
+        $byteArrayContent = New-Object System.Net.Http.ByteArrayContent($fileBytes)
+        $byteArrayContent.Headers.ContentType = New-Object System.Net.Http.Headers.MediaTypeHeaderValue("application/pdf")
+        
+        $content.Add($byteArrayContent, "file", $fileName)
+        
+        $responseTask = $httpClient.PostAsync("$API_URL/parse_itau", $content)
+        $response = $responseTask.Result
+        
+        if ($response.IsSuccessStatusCode) {
+            $responseContent = $response.Content.ReadAsStringAsync().Result
+            $response = $responseContent | ConvertFrom-Json
+        } else {
+            throw New-Object System.Exception("HTTP $($response.StatusCode): $($response.ReasonPhrase)")
+        }
+        
+        $httpClient.Dispose()
+    } catch {
+        # MÃ©todo 2: Fallback para multipart manual
+        Write-Host "   Usando mÃ©todo alternativo..." -ForegroundColor Yellow
+        
+        $fileBytes = [System.IO.File]::ReadAllBytes($PDF_PATH)
+        $fileName = [System.IO.Path]::GetFileName($PDF_PATH)
+        
+        # Gerar boundary Ãºnico
+        $boundary = [System.Guid]::NewGuid().ToString()
+        $LF = "`r`n"
+        
+        # Construir corpo da requisiÃ§Ã£o multipart
+        $bodyParts = @()
+        $bodyParts += "--$boundary"
+        $bodyParts += "Content-Disposition: form-data; name=`"file`"; filename=`"$fileName`""
+        $bodyParts += "Content-Type: application/pdf"
+        $bodyParts += ""
+        
+        # Converter partes para bytes
+        $headerBytes = [System.Text.Encoding]::UTF8.GetBytes(($bodyParts -join $LF) + $LF + $LF)
+        $footerBytes = [System.Text.Encoding]::UTF8.GetBytes($LF + "--$boundary--" + $LF)
+        
+        # Combinar: header + file + footer
+        $bodyBytes = New-Object byte[] ($headerBytes.Length + $fileBytes.Length + $footerBytes.Length)
+        [System.Buffer]::BlockCopy($headerBytes, 0, $bodyBytes, 0, $headerBytes.Length)
+        [System.Buffer]::BlockCopy($fileBytes, 0, $bodyBytes, $headerBytes.Length, $fileBytes.Length)
+        [System.Buffer]::BlockCopy($footerBytes, 0, $bodyBytes, $headerBytes.Length + $fileBytes.Length, $footerBytes.Length)
+        
+        # Fazer requisiÃ§Ã£o
+        $headers = @{
+            "Content-Type" = "multipart/form-data; boundary=$boundary"
+        }
+        
+        $response = Invoke-RestMethod -Uri "$API_URL/parse_itau" -Method POST -Body $bodyBytes -Headers $headers -UseBasicParsing
+    }
+    
+    Write-Host "âœ… Parsing realizado com sucesso!" -ForegroundColor Green
+    Write-Host ""
+    
+    # Exibir resposta formatada (equivalente ao jq .)
+    Write-Host "Resposta (JSON formatado):" -ForegroundColor Cyan
+    Write-Host "================================" -ForegroundColor Cyan
+    $jsonOutput = $null
+    try {
+        $jsonOutput = $response | ConvertTo-Json -Depth 10
+        if ($jsonOutput) {
+            Write-Host $jsonOutput
+        } else {
+            Write-Host "Resposta vazia" -ForegroundColor Yellow
+        }
+    } catch {
+        $errorMsg = $_.Exception.Message
+        Write-Host "Erro ao formatar resposta: $errorMsg" -ForegroundColor Yellow
+        Write-Host "Tentando exibir resposta alternativa..." -ForegroundColor Yellow
+        if ($response) {
+            Write-Host ($response | Out-String)
+        }
+    }
+    Write-Host ""
+    
+    # Verificar estrutura
+    Write-Host "ðŸ” Verificando estrutura..." -ForegroundColor Yellow
+    
+    # Items
+    if ($response.items) {
+        Write-Host "  âœ… Items: $($response.items.Count) transaÃ§Ãµes extraÃ­das" -ForegroundColor Green
+        if ($response.items.Count -gt 0) {
+            Write-Host "     Primeira transaÃ§Ã£o:" -ForegroundColor Gray
+            $firstItem = $response.items[0]
+            Write-Host "       Date: $($firstItem.date)" -ForegroundColor Gray
+            Write-Host "       Description: $($firstItem.description)" -ForegroundColor Gray
+            Write-Host "       Amount: $($firstItem.amount)" -ForegroundColor Gray
+            Write-Host "       Last4: $($firstItem.last4)" -ForegroundColor Gray
+        }
+    } else {
+        Write-Host "  âš ï¸ Items nÃ£o encontrado" -ForegroundColor Yellow
+    }
+    
+    # Stats
+    if ($response.stats) {
+        Write-Host "  âœ… Stats encontrado" -ForegroundColor Green
+        Write-Host "     Total lines: $($response.stats.total_lines)" -ForegroundColor Gray
+        Write-Host "     Matched: $($response.stats.matched)" -ForegroundColor Gray
+        Write-Host "     Rejected: $($response.stats.rejected)" -ForegroundColor Gray
+        Write-Host "     Sum abs values: $($response.stats.sum_abs_values)" -ForegroundColor Gray
+        
+        # Verificar by_card
+        if ($response.stats.by_card) {
+            Write-Host "     By card:" -ForegroundColor Gray
+            foreach ($card in $response.stats.by_card.PSObject.Properties.Name) {
+                $cardStats = $response.stats.by_card.$card
+                Write-Host "       CartÃ£o ${card}:" -ForegroundColor Cyan
+                Write-Host "         Control total: $($cardStats.control_total)" -ForegroundColor Gray
+                Write-Host "         Calculated total: $($cardStats.calculated_total)" -ForegroundColor Gray
+                Write-Host "         Delta: $($cardStats.delta)" -ForegroundColor $(if ($cardStats.delta -le 0.01) { "Green" } else { "Yellow" })
+                
+                if ($cardStats.delta -gt 0.01) {
+                    Write-Host "         âš ï¸ Delta acima da tolerÃ¢ncia (0.01)" -ForegroundColor Yellow
+                } else {
+                    Write-Host "         âœ… Delta dentro da tolerÃ¢ncia" -ForegroundColor Green
+                }
+            }
+        }
+    } else {
+        Write-Host "  âš ï¸ Stats nÃ£o encontrado" -ForegroundColor Yellow
+    }
+    
+    # Rejects
+    if ($response.rejects) {
+        Write-Host "  âœ… Rejects: $($response.rejects.Count) linhas rejeitadas" -ForegroundColor $(if ($response.rejects.Count -eq 0) { "Green" } else { "Yellow" })
+        if ($response.rejects.Count -gt 0 -and $response.rejects.Count -le 5) {
+            Write-Host "     Primeiras rejeiÃ§Ãµes:" -ForegroundColor Gray
+            for ($i = 0; $i -lt [Math]::Min($response.rejects.Count, 3); $i++) {
+                Write-Host "       $($i + 1). $($response.rejects[$i].reason): $($response.rejects[$i].line.Substring(0, [Math]::Min(50, $response.rejects[$i].line.Length)))..." -ForegroundColor Gray
+            }
+        }
+    } else {
+        Write-Host "  âš ï¸ Rejects nÃ£o encontrado" -ForegroundColor Yellow
+    }
+    
+    Write-Host ""
+    Write-Host "ðŸŽ‰ Teste concluÃ­do com sucesso!" -ForegroundColor Green
+    
+} catch {
+    Write-Host "âŒ Erro no parsing: $($_.Exception.Message)" -ForegroundColor Red
+    
+    # Verificar se Ã© erro 404 (endpoint nÃ£o existe)
+    if ($_.Exception.Response -and $_.Exception.Response.StatusCode -eq 404) {
+        Write-Host ""
+        Write-Host "Endpoint /parse_itau nao encontrado!" -ForegroundColor Yellow
+        Write-Host "O endpoint pode nao estar implementado ainda." -ForegroundColor Yellow
+        Write-Host "Verifique se o modulo card_pdf_parser esta instalado e configurado." -ForegroundColor Yellow
+    } elseif ($_.Exception.Response) {
+        try {
+            $reader = New-Object System.IO.StreamReader($_.Exception.Response.GetResponseStream())
+            $responseBody = $reader.ReadToEnd()
+            Write-Host ""
+            Write-Host "Resposta do servidor:" -ForegroundColor Yellow
+            Write-Host $responseBody -ForegroundColor Yellow
+        } catch {
+            $msg = "Nao foi possivel ler a resposta do servidor"
+            Write-Host $msg -ForegroundColor Yellow
+        }
+    }
+    
+    exit 1
+}
+

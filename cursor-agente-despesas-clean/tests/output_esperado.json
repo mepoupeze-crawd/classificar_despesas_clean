@@ -1,0 +1,1472 @@
+{
+  "items": [
+    {
+      "date": "2025-04-30",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "2048.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-05-16",
+      "description": "FRATEX INDUSTRIA E",
+      "amount": "111.96",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-05-21",
+      "description": "ZARA BRASIL LTDA",
+      "amount": "143.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-06-03",
+      "description": "PASSARO AZUL COMER",
+      "amount": "266.35",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-06-03",
+      "description": "GALLERIST COM IMP",
+      "amount": "125.82",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-06-03",
+      "description": "ZARA BRASIL LTDA",
+      "amount": "135.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-06-12",
+      "description": "SEPHORA CIDJARDIN",
+      "amount": "83.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-06-17",
+      "description": "MTKS JOIAS",
+      "amount": "107.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 4,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-07-01",
+      "description": "BRUNA CUTAIT",
+      "amount": "487.74",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 7,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-07-23",
+      "description": "DROGASIL1255",
+      "amount": "160.10",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-08-30",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-31",
+      "description": "ifood *IFD*EPPIC E D",
+      "amount": "63.88",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-31",
+      "description": "ifood *IFD*28876098",
+      "amount": "78.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-31",
+      "description": "ifood *IFD*TENDA ORG",
+      "amount": "78.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-01",
+      "description": "MP *JOAOTAXISP",
+      "amount": "36.65",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-01",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-01",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "50.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-03",
+      "description": "SmartBreak",
+      "amount": "11.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-03",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "40.75",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-03",
+      "description": "ifood *IFD*TENDA ORG",
+      "amount": "86.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-03",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "32.68",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "DM*mondaycom",
+      "amount": "330.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "ORGANIKA",
+      "amount": "12.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "MP *LKSIGNATURE",
+      "amount": "319.13",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "60.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-06",
+      "description": "ifood *IFD*PAPILA RE",
+      "amount": "86.79",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-07",
+      "description": "ifood *IFD*D1 DOCES",
+      "amount": "90.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-07",
+      "description": "ifood *IFD*PAPILA RE",
+      "amount": "91.78",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-08",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-10",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "3.25",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-10",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-10",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-10",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "39.75",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-11",
+      "description": "SmartBreak",
+      "amount": "17.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-11",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "5.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "3.25",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "APPLE.COM/BILL",
+      "amount": "64.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "25.62",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-13",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "19.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-14",
+      "description": "APPLE.COM/BILL",
+      "amount": "149.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-14",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "24.55",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-15",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-15",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "29.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-15",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-16",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "40.36",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-16",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "38.38",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-17",
+      "description": "ORGANIKA",
+      "amount": "12.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-17",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "25.04",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "18.43",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "TAPPO GASTRONOMIA",
+      "amount": "266.03",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "CA SUL COMERCIO GASTRO",
+      "amount": "32.75",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-20",
+      "description": "IFD*D1 DOCES E BOLOS L",
+      "amount": "369.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-21",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "19.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-21",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "26.12",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-21",
+      "description": "IFD*PAPILA RESTAURANTE",
+      "amount": "91.88",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-21",
+      "description": "IFD*AMG DOCERIA LTDA",
+      "amount": "69.78",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-22",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-22",
+      "description": "EduardoDeMoura",
+      "amount": "18.45",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-22",
+      "description": "WILSON GOMES DO NASCI",
+      "amount": "42.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-22",
+      "description": "MP *SHO",
+      "amount": "13.55",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-23",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "14.05",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-23",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-23",
+      "description": "MP *JOAOTAXISP",
+      "amount": "43.65",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-24",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "19.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-24",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "19.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "21.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-26",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "19.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-26",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-26",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "APPLE.COM/BILL",
+      "amount": "66.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Bacio di Latte LJ0058",
+      "amount": "45.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "Bacio di Latte LJ0058",
+      "amount": "4.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "SHIN ZUSHI",
+      "amount": "492.25",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "SPAZIO CAPELLI",
+      "amount": "44.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-28",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "10.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-28",
+      "description": "APPLE.COM/BILL",
+      "amount": "31.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-03-31",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "1252.39",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 6
+    },
+    {
+      "date": "2025-05-12",
+      "description": "PG *SHOPGEORGIA",
+      "amount": "356.68",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-05-12",
+      "description": "PG *SHOPGEORGIA 159,60",
+      "amount": "159.60",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO",
+      "amount": "269.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO 209,93",
+      "amount": "209.93",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-21",
+      "description": "CAROL FARINA",
+      "amount": "391.75",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-06-30",
+      "description": "CAFFEIN*Caffeine A",
+      "amount": "341.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "120.08",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "119.99",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-07-23",
+      "description": "PG *111 STUDIO COM",
+      "amount": "126.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-09-05",
+      "description": "UNICEF*UNICEF BRASIL",
+      "amount": "30.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-23",
+      "description": "DL *DLRAPPIPROBR",
+      "amount": "24.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "RAPPI*MOUSTACHE BEAMS",
+      "amount": "24.44",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-28",
+      "description": "RAPPI*MOUSTACHE BEAMS",
+      "amount": "43.12",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-02",
+      "description": "UBER* TRIP",
+      "amount": "33.45",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-04",
+      "description": "UBER* TRIP",
+      "amount": "52.03",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-05",
+      "description": "UBER* TRIP",
+      "amount": "37.43",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-05",
+      "description": "UBER* TRIP",
+      "amount": "32.99",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-06",
+      "description": "UBER* TRIP",
+      "amount": "21.91",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-06",
+      "description": "UBER* TRIP",
+      "amount": "28.30",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-06",
+      "description": "UBER* TRIP",
+      "amount": "16.55",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-08",
+      "description": "UBER* TRIP",
+      "amount": "24.40",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-11",
+      "description": "UBER* TRIP",
+      "amount": "33.85",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-11",
+      "description": "UBER* TRIP",
+      "amount": "24.24",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-12",
+      "description": "UBER* TRIP",
+      "amount": "26.48",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-14",
+      "description": "UBER* TRIP",
+      "amount": "30.49",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-15",
+      "description": "UBER* TRIP",
+      "amount": "26.43",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-16",
+      "description": "Uber UBER *TRIP HELP.U",
+      "amount": "59.44",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-17",
+      "description": "UBER* TRIP",
+      "amount": "20.10",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-18",
+      "description": "UBER* TRIP",
+      "amount": "25.08",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-18",
+      "description": "UBER* TRIP",
+      "amount": "13.81",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "UBER* TRIP",
+      "amount": "19.89",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "UBER* TRIP",
+      "amount": "43.68",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "UBER* TRIP",
+      "amount": "47.19",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-19",
+      "description": "UBER* TRIP",
+      "amount": "57.90",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-20",
+      "description": "UBER* TRIP",
+      "amount": "25.16",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-20",
+      "description": "UBER* TRIP",
+      "amount": "30.46",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-21",
+      "description": "UBER* TRIP",
+      "amount": "28.60",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-22",
+      "description": "UBER* TRIP",
+      "amount": "44.27",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-23",
+      "description": "UBER* TRIP",
+      "amount": "21.58",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "UBER* TRIP",
+      "amount": "19.79",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-25",
+      "description": "UBER* TRIP",
+      "amount": "37.81",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "UBER* TRIP",
+      "amount": "39.59",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-27",
+      "description": "UBER* TRIP",
+      "amount": "38.10",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-09-17",
+      "description": "SEG CARTAO PROTEGIDO",
+      "amount": "10.19",
+      "last4": null,
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    }
+  ],
+  "stats": {
+    "total_lines": 444,
+    "matched": 128,
+    "rejected": 39,
+    "sum_abs_values": "12165.71",
+    "sum_saida": "11796.18",
+    "sum_entrada": "369.53",
+    "by_card": {
+      "9826": {
+        "control_total": "7724.74",
+        "calculated_total": "7724.74",
+        "delta": "0.00"
+      },
+      "7430": {
+        "control_total": "2730.72",
+        "calculated_total": "2730.72",
+        "delta": "0.00"
+      },
+      "1899": {
+        "control_total": "961.00",
+        "calculated_total": "961.00",
+        "delta": "0.00"
+      },
+      "unknown": {
+        "control_total": "0",
+        "calculated_total": "10.19",
+        "delta": "10.19"
+      }
+    }
+  },
+  "rejects": [
+    {
+      "line": "O total da sua fatura é: Com vencimento em: Limite total de crédito:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Preparamos outras opçõesdepagamento abaixo eaofinal dafatura, válidas atéadatadevencimento:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Pagamento mínimo: Parcelas fixas:",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "+ 10x R$ 1.362,91",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Valor em reais % do total financiado Valor em reais % do total financiado",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Valor total financiado R$ 10.274,81 100,00% Valor total financiado R$ 11.622,83 100,00%",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Encargos R$ 1.114,82 - Valor solicitado R$ 11.426,65 98,31 %",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "IOF R$ 71,53 - IOF R$ 196,18 1,69 %",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Total a pagar R$ 12.613,00 - Total a pagar R$ 14.992,01 -",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "Juros: 10,85 %am - 250,17%aa CET: 11,48 %am - 275,01 %aa Juros Máximos: 5,45 %am - 90,72 %aa CET Máximo: 6,32 %am - 110,77 %aa",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "00102236307/0400599",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Estamos lhe enviando esta fatura para simples conferência. Outra via desta mesma fatura foi",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "enviada para débito automático em conta corrente, conforme sua autorização.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Caso necessite, poderá suspender o débito da sua fatura mensal até o dia anterior à data do",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "vencimento, podendo ainda optar pelo pagamento mínimo, pelo financiamento em parcelas fixas",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "utilizando o Parcelamento da Fatura ou pelo pagamento total. Se o débito não cair em um dia útil,",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "a suspensão deverá ser efetuada 1 dia útil antes da data do vencimento. No próximo mês, o débito",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "automático ocorrerá normalmente.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Para conhecer os detalhes e contratar o Parcelamento de Fatura, acesse a internet ou ligue para",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "a Central de Atendimento do cartão.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Caso você pague um valor entre o mínimo e o total de sua fatura, o saldo restante será cobrado na próxima fatura com juros e impostos. O pagamento",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "do valor total é sempre a melhor opção porque não há cobranças de juros.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "O pagamento obrigatório é composto pelo saldo do crédito rotativo e respectivos encargos incidentes no período (R$ 0,00), prestações referentes a",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "parcelamentos do saldo devedor de períodos anteriores (R$ 0,00) e valor mínimo de novas transações (R$ 1.151,84). Para entender mais sobre o",
+      "reason": "Linha incompleta (tem valor)"
+    },
+    {
+      "line": "pagamento obrigatório e o pagamento mínimo, acesse seu contrato e a aba \"Serviços\" no site Itaú Cartões.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Consulte outras opções de parcelamento no final da sua fatura.",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Previsão do próximo fechamento: 29/10/2025.",
+      "reason": "Linha incompleta (tem data)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "3003 3030",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "0800 720 3030",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Continua...",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "PC - 00 01290 VK045 30/09/2025 VKRPOF01 G4598 0013183",
+      "reason": "Linha incompleta (tem data)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "SAÚDE .SAO PAULO",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "DATA ESTABELECIMENTO VALOR EM R$",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    },
+    {
+      "line": "Continua...",
+      "reason": "Linha não reconhecida (sem data, valor ou subtotal)"
+    }
+  ]
+}

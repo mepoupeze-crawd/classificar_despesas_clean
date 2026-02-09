@@ -1,0 +1,57 @@
+{
+  "transactions": [
+    {
+      "description": "Olea Cj Restaurante Lt",
+      "amount": 150.00,
+      "date": "2024-10-18T10:00:00",
+      "card_number": "1234",
+      "card_holder": "João",
+      "installments": 3,
+      "installment_number": 1
+    },
+    {
+      "description": "Joel Souza Mat Constr",
+      "amount": 21.90,
+      "date": "2024-10-18T11:00:00",
+      "card_number": "5678",
+      "card_holder": "Aline",
+      "installments": 1,
+      "installment_number": 1
+    },
+    {
+      "description": "CREDITO DE SALARIO                 CNPJ 007526557000100",
+      "amount": 21.90,
+      "date": "2024-10-18T11:00:00",
+      "card_number": "5678",
+      "card_holder": "Aline",
+      "installments": 1,
+      "installment_number": 1
+    },
+    {
+      "description": "Uber Uber *Trip Help U",
+      "amount": 21.90,
+      "date": "2024-10-18T11:00:00",
+      "card_number": "5678",
+      "card_holder": "Aline",
+      "installments": 1,
+      "installment_number": 1
+    },
+    {
+      "description": "Bkg*Hotel At Booking C",
+      "amount": 89.50,
+      "date": "2024-10-18T12:00:00",
+      "card_number": "9999",
+      "card_holder": "João",
+      "installments": 2,
+      "installment_number": 1
+    }
+  ],
+  "config": {
+    "similarity_threshold": 0.70,
+    "model_threshold": 0.70,
+    "enable_deterministic_rules": false,
+    "enable_tfidf_similarity": true,
+    "enable_fallback_ai": true,
+    "use_pipeline_model": true
+  }
+}

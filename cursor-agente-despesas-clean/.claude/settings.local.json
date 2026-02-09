@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(python -c \"\nfrom card_pdf_parser.parser.extract import extract_lines_lr_order\nimport re\n\n# Test fatura fevereiro.pdf\nlines = extract_lines_lr_order\\(''fatura fevereiro.pdf''\\)\n\n# Find lines that look like they contain card headers \\(with ''final'' and 4 digits\\)\nprint\\(''=== Lines containing \"\"final\"\" in fatura fevereiro.pdf ===''\\)\nfor i, line in enumerate\\(lines[:150]\\):\n    if ''final'' in line.lower\\(\\) or ''FINAL'' in line:\n        print\\(f''{i}: {repr\\(line\\)}''\\)\")",
+      "Bash(python:*)"
+    ]
+  }
+}

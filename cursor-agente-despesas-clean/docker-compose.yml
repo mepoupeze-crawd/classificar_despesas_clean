@@ -1,0 +1,33 @@
+# docker-compose.yml - Configuração base para desenvolvimento
+# Compatível com Cloud Run (sem volumes obrigatórios)
+
+services:
+  api:
+    build: .
+    ports:
+      - "8081:8080"
+    env_file:
+      - .env
+      - .env.production  # Carregar também .env.production se existir
+    environment:
+      # Sobrescrever valores do .env para ambiente Docker
+      - MODEL_DIR=/models
+      - TRAINING_DATA_FILE=/app/modelo_despesas_completo.csv
+      - FEEDBACK_DIR=/app/feedbacks
+      # AI Fallback - Configurar via .env ou variáveis de ambiente
+      # ENABLE_FALLBACK_AI será lido do .env se não estiver definido aqui
+      # OPENAI_API_KEY será lido do .env se não estiver definido aqui
+      # ANTHROPIC_API_KEY será lido do .env se não estiver definido aqui
+      # SERPAPI_API_KEY será lido do .env se não estiver definido aqui
+    volumes:
+      # Persistir arquivos de feedback para desenvolvimento
+      - ./feedbacks:/app/feedbacks
+      # Persistir modelo CSV para desenvolvimento (opcional)
+      - ./modelo_despesas_completo.csv:/app/modelo_despesas_completo.csv
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/healthz')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped

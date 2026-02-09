@@ -1,0 +1,26 @@
+# docker-compose.override.yml - Configuração para desenvolvimento local
+# Este arquivo é usado automaticamente pelo docker-compose para desenvolvimento
+# IMPORTANTE: Cloud Run NÃO usa volumes - isso é apenas para desenvolvimento local
+
+services:
+  api:
+    volumes:
+      # Hot-reload do código da aplicação (desenvolvimento)
+      - ./app:/app/app:ro
+      # Hot-reload do módulo spend_classification (desenvolvimento)
+      - ./spend_classification:/app/spend_classification:ro
+      # Modelos locais (se existirem)
+      - ./modelos:/models:ro
+      # Arquivos de configuração locais
+      - ./.env:/app/.env:ro
+    environment:
+      # Configurações específicas para desenvolvimento
+      # ENABLE_FALLBACK_AI será lido do .env (não sobrescrever aqui para permitir configuração)
+      - SIMILARITY_THRESHOLD=0.70
+      - MODEL_THRESHOLD=0.70
+      - TRAINING_DATA_FILE=modelo_despesas_completo.csv
+    # Comando alternativo para desenvolvimento (com reload)
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080", "--reload", "--workers", "1"]
+    # Desabilitar health check em desenvolvimento (pode interferir com reload)
+    healthcheck:
+      disable: true

@@ -1,0 +1,1372 @@
+{
+  "items": [
+    {
+      "date": "2025-04-30",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "2048.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-16",
+      "description": "FRATEX INDUSTRIA E",
+      "amount": "111.96",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-21",
+      "description": "ZARA BRASIL LTDA",
+      "amount": "143.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-30",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "513.34",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-03",
+      "description": "PASSARO AZUL COMER",
+      "amount": "266.35",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-03",
+      "description": "GALLERIST COM IMP",
+      "amount": "125.82",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-03",
+      "description": "ZARA BRASIL LTDA",
+      "amount": "135.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-12",
+      "description": "SEPHORA CIDJARDIN",
+      "amount": "83.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-17",
+      "description": "MTKS JOIAS",
+      "amount": "107.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 4,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-07-01",
+      "description": "BRUNA CUTAIT",
+      "amount": "487.74",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 7,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-01",
+      "description": "BRUNA CUTAIT",
+      "amount": "0.18",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-11",
+      "description": "LIVRARIA DA TRAVESSA",
+      "amount": "439.50",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-23",
+      "description": "DROGASIL",
+      "amount": "160.10",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-23",
+      "description": "TIAGO TAXI",
+      "amount": "32.40",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "10.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "37.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "OLEA CA RESTAURANTE LT",
+      "amount": "113.56",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "SPAZIO CAPELLI",
+      "amount": "44.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-30",
+      "description": "IFD*PAPILA RESTAURANTE",
+      "amount": "58.89",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-31",
+      "description": "KOPENHAGEN SHOPPING CI",
+      "amount": "25.83",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-31",
+      "description": "MP *JOAOTAXISP",
+      "amount": "39.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-31",
+      "description": "IFD*TENDA ORGANICA LTD",
+      "amount": "80.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-31",
+      "description": "FIT FOOD GF4 BEAR E LAN",
+      "amount": "88.81",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-01",
+      "description": "CINEMARK CIDADE JARDIM",
+      "amount": "56.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-02",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-02",
+      "description": "IFD*D1 DOCES E BOLOS L",
+      "amount": "134.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-02",
+      "description": "IFD*PAPILA RESTAURANTE",
+      "amount": "56.89",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-03",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "5.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-03",
+      "description": "PAO MARIO FERRAZ",
+      "amount": "96.03",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-03",
+      "description": "IFD*PAPILA RESTAURANTE",
+      "amount": "64.89",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-03",
+      "description": "IFD*RECANTO DOS BOLOS",
+      "amount": "51.79",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-03",
+      "description": "IFD*ALBIS AM COMERCIO",
+      "amount": "53.79",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "SAPATARIA DO FITURO",
+      "amount": "313.22",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "DM*mondaycom",
+      "amount": "330.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "LuckauComercioDe",
+      "amount": "7.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "CARTER S",
+      "amount": "159.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "DROGASIL1148",
+      "amount": "195.15",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-05",
+      "description": "EMPORIO ORGANICO OSCAR",
+      "amount": "7.10",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-05",
+      "description": "ORGANICO OSCAR FREIRE",
+      "amount": "95.48",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-05",
+      "description": "RICARDOTAXI",
+      "amount": "39.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-06",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-06",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-06",
+      "description": "RC CAFE LTDA",
+      "amount": "22.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-06",
+      "description": "PATIO CAFE SG LTDA EPP ",
+      "amount": "24.86",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-06",
+      "description": "IEBUK PATISSERIE",
+      "amount": "28.05",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-07",
+      "description": "DROGASIL1255",
+      "amount": "16.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-07",
+      "description": "RC CAFE LTDA",
+      "amount": "22.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-07",
+      "description": "KOPENHAGENSHOPPING CI",
+      "amount": "24.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-07",
+      "description": "SEPHORA CIDJARDIN",
+      "amount": "158.30",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-08",
+      "description": "SPAZIO CAPELLI",
+      "amount": "389.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-09",
+      "description": "FEITO A MAO PAO ARTESA",
+      "amount": "22.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-10",
+      "description": "FEITO A MAO PAO ARTESA",
+      "amount": "58.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-10",
+      "description": "FEITO A MAO PAO ARTESA",
+      "amount": "25.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-11",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-11",
+      "description": "SmartBreak",
+      "amount": "11.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-11",
+      "description": "BRIANRICHARDTINIMENDE",
+      "amount": "45.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-11",
+      "description": "RC CAFE LTDA",
+      "amount": "21.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-12",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "10.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-12",
+      "description": "ORGANICO OSCAR FREIRE",
+      "amount": "92.66",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-12",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-12",
+      "description": "CAFE ZINN",
+      "amount": "69.30",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-12",
+      "description": "APPLE.COM/BILL",
+      "amount": "64.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-13",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-13",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-13",
+      "description": "SmartBreak",
+      "amount": "11.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-13",
+      "description": "JOAOTAXISP",
+      "amount": "40.25",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-13",
+      "description": "SPAZIO CAPELLI",
+      "amount": "44.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-14",
+      "description": "KOPENHAGENSHOPPING CI",
+      "amount": "19.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-15",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-15",
+      "description": "DOLCISSIMO LANCHONETE",
+      "amount": "14.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-15",
+      "description": "ADOLFO TADACOW",
+      "amount": "121.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-18",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-18",
+      "description": "IFD*D1 DOCES E BOLOS L",
+      "amount": "108.98",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-18",
+      "description": "IFD*TENDA ORGANICA LTD",
+      "amount": "69.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-20",
+      "description": "RC CAFE LTDA",
+      "amount": "21.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-21",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-21",
+      "description": "APPLE.COM/BILL",
+      "amount": "82.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-21",
+      "description": "EC PINHEIROS",
+      "amount": "3.00",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-21",
+      "description": "RC CAFE LTDA",
+      "amount": "21.80",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-21",
+      "description": "KOPENHAGENSHOPPING CI",
+      "amount": "19.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-22",
+      "description": "Quiosque SHOP CIDADE J",
+      "amount": "37.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-23",
+      "description": "R2MP SARJETA SERVICOS",
+      "amount": "41.81",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-23",
+      "description": "R2MP SARJETA SERVICOS",
+      "amount": "50.85",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-24",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "28.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-25",
+      "description": "APPLE.COM/BILL",
+      "amount": "39.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-26",
+      "description": "KOPENHAGENSHOPPING CI",
+      "amount": "19.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-26",
+      "description": "LUCASTAXI",
+      "amount": "42.25",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-26",
+      "description": "QUIOSQUE SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-27",
+      "description": "APPLE.COM/BILL",
+      "amount": "66.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-28",
+      "description": "ESPORTE CLUBE PINHEIRO",
+      "amount": "16.60",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-29",
+      "description": "APPLE.COM/BILL",
+      "amount": "31.90",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-30",
+      "description": "SmartBreak",
+      "amount": "11.99",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-31",
+      "description": "QUIOSQUE SHOP CIDADE J",
+      "amount": "10.95",
+      "last4": "Final 0009 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-03-13",
+      "description": "PURA VIDA",
+      "amount": "69.52",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 6
+    },
+    {
+      "date": "2025-03-31",
+      "description": "CLINICA ADRIANA VI",
+      "amount": "1252.39",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 10,
+      "numero_parcela": 5
+    },
+    {
+      "date": "2025-04-29",
+      "description": "PURA VIDA",
+      "amount": "311.02",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 4,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-12",
+      "description": "PG *SHOPGEORGIA",
+      "amount": "356.68",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 5,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-12",
+      "description": "PG *SHOPGEORGIA",
+      "amount": "159.60",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-17",
+      "description": "CABANA CRAFTS",
+      "amount": "211.36",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 4,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO",
+      "amount": "269.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *ONE WAY STORE",
+      "amount": "118.22",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 4,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *AMARO",
+      "amount": "209.93",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-19",
+      "description": "PG *ONE WAY STORE COME",
+      "amount": "68.23",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-05-21",
+      "description": "CAROL FARINA",
+      "amount": "391.75",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 6,
+      "numero_parcela": 4
+    },
+    {
+      "date": "2025-06-02",
+      "description": "EQUALIV",
+      "amount": "279.80",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-16",
+      "description": "Anselmi",
+      "amount": "321.98",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-16",
+      "description": "FISIA NIKE ECOMMERC",
+      "amount": "266.67",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 3
+    },
+    {
+      "date": "2025-06-29",
+      "description": "PG *TRELA",
+      "amount": "159.87",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-06-30",
+      "description": "PURA VIDA",
+      "amount": "81.63",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-06-30",
+      "description": "EQUALIV",
+      "amount": "279.80",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-06-30",
+      "description": "CAFFEIN*Caffeine A",
+      "amount": "341.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-01",
+      "description": "PHARMACO",
+      "amount": "326.70",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-02",
+      "description": "CENTRAL NUTRITION",
+      "amount": "62.31",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-02",
+      "description": "PG *DROGARAIA",
+      "amount": "87.85",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "120.08",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saída",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "119.99",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saída",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "0.02",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-14",
+      "description": "niini",
+      "amount": "0.04",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-07-23",
+      "description": "PG *111 STUDIO COM",
+      "amount": "126.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 3,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-29",
+      "description": "TRELA*Pedido Trela",
+      "amount": "142.79",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": 2,
+      "numero_parcela": 2
+    },
+    {
+      "date": "2025-07-29",
+      "description": "TRELA*Pedido Trela",
+      "amount": "0.01",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Entrada",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-05",
+      "description": "UNICEF*UNICEF BRASIL ",
+      "amount": "30.00",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saída",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-05",
+      "description": "PHARMACO",
+      "amount": "680.40",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-11",
+      "description": "PG *TRELA TRELA ",
+      "amount": "261.19",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-23",
+      "description": "RAPPI*Rappi Brasil Int",
+      "amount": "24.90",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-23",
+      "description": "RAPPI*MOUSTACHE BEAMS ",
+      "amount": "25.78",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-24",
+      "description": " RAPPI*MOUSTACHE BEAMS",
+      "amount": "47.10",
+      "last4": "Final 7430 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-04",
+      "description": "UBER* TRIP",
+      "amount": "31.04",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-10",
+      "description": "UBER* TRIP",
+      "amount": "36.51",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-23",
+      "description": "UBER* TRIP",
+      "amount": "21.00",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-28",
+      "description": "UBER* TRIP",
+      "amount": "46.75",
+      "last4": "Final 1899 - MARIA S EXEMPLO",
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    },
+    {
+      "date": "2025-08-14",
+      "description": "SEG CARTAO PROTEGIDO",
+      "amount": "10.19",
+      "last4": null,
+      "flux": "Saida",
+      "source": "Cartão de Crédito",
+      "parcelas": null,
+      "numero_parcela": null
+    }
+  ],
+  "stats": {
+    "matched": 134,
+    "sum_saida": "16051,74",
+    "sum_entrada": "438,01",
+    "sum_abs_values": "15.613,73",
+    "by_card": {
+      "9826": {
+        "control_total": "9.139,39",
+        "calculated_total": "9.139,39",
+        "delta": "00,00"
+      },
+      "7430": {
+        "control_total": "6.329,45",
+        "calculated_total": "6.329,45",
+        "delta": "00,00"
+      },
+      "1899": {
+        "control_total": "135,30",
+        "calculated_total": "135,30",
+        "delta": "00,00"
+      },
+      "unknown": {
+        "control_total": "10,19",
+        "calculated_total": "10,19",
+        "delta": "00,00"
+      }
+    }
+  }
+}

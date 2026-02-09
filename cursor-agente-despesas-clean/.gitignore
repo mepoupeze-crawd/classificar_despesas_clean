@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Virtual env
+venv/
+env/
+ENV/
+
+# IDE/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project
+outputs/*.csv
+!outputs/.gitkeep
+resultados_*.csv
+teste_*.csv
+*.log
+# (opcional) modelos pesados — manter comentado por enquanto
+# modelos/*.pkl
+
+# Environment variables
+.env
+app/.env
