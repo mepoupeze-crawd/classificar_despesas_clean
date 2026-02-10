@@ -35,7 +35,7 @@ export PROJECT_ID="meu-projeto"
 export TAG="v1"
 
 # Deploy
-./deploy-gcp.sh
+./ops/ops/deploy-gcp.sh
 ```
 
 ### Deploy com Configurações Personalizadas
@@ -45,7 +45,7 @@ PROJECT_ID="meu-projeto" \
 SERVICE_NAME="ml-service-custom" \
 TAG="custom-v1" \
 REGION="us-central1" \
-./deploy-gcp.sh
+./ops/ops/deploy-gcp.sh
 ```
 
 ## Validação Pós-Deploy

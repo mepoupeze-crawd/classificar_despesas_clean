@@ -801,8 +801,8 @@ CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
 
 - **`Dockerfile.example`**: Dockerfile completo com health check
 - **`docker-compose.example.yml`**: Configuração para desenvolvimento local
-- **`deploy-cloud-run.example.sh`**: Script de deploy para Google Cloud Run
-- **`validate-container.sh`**: Comandos de validação para testes
+- **`ops/deploy-cloud-run.example.sh`**: Script de deploy para Google Cloud Run
+- **`ops/validate-container.sh`**: Comandos de validação para testes
 
 ## 9. Rodar com Docker (Local)
 
