@@ -52,6 +52,7 @@ def parse_santander_fatura(file_bytes: bytes) -> Dict[str, Any]:
     pdf_io = io.BytesIO(file_bytes)
     items: List[Dict[str, Any]] = []
     all_text_parts: List[str] = []
+    raw_lines_sample: List[str] = []
 
     with pdfplumber.open(pdf_io) as pdf:
         for page in pdf.pages:
@@ -61,6 +62,8 @@ def parse_santander_fatura(file_bytes: bytes) -> Dict[str, Any]:
                 line = " ".join(raw_line.strip().split())
                 if not line:
                     continue
+                if len(raw_lines_sample) < 60:
+                    raw_lines_sample.append(line)
 
                 # must have a date and a value
                 dm = _DATE_RE.search(line)
@@ -112,6 +115,7 @@ def parse_santander_fatura(file_bytes: bytes) -> Dict[str, Any]:
         "matched": len(items),
         "year": year,
         "source": "santander",
+        "raw_lines_sample": raw_lines_sample,
     }
 
     return {"items": items, "stats": stats}
