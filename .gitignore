@@ -31,3 +31,4 @@ teste_*.csv
 # Environment variables
 .env
 app/.env
+.venv/
