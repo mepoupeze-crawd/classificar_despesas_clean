@@ -543,6 +543,29 @@ class ClassificationResponse(BaseModel):
         # Permitir valores ligeiramente acima de 1.0 devido a precisão de ponto flutuante
         validate_all = True
 
+
+
+class PdfTransaction(BaseModel):
+    """Transação extraída de PDF (formato simplificado para uso em lote)."""
+    date: str
+    description: str
+    amount: float
+    last4: Optional[str] = None
+    installments: Optional[int] = None
+    installment_number: Optional[int] = None
+
+
+class PdfClassifiedRow(BaseModel):
+    """Linha final: transação do PDF + classificação."""
+    transaction: PdfTransaction
+    prediction: PredictionResponse
+
+
+class PdfClassifyResponse(BaseModel):
+    rows: List[PdfClassifiedRow]
+    elapsed_ms: float
+    total_rows: int
+    parse_stats: Optional[dict] = None
 def _check_api_key(key_name: str) -> bool:
     """
     Verifica se uma API key existe e tem valor não vazio.
@@ -789,6 +812,107 @@ async def classify_transactions(transactions: List[TransactionRequest]):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro na classificação: {str(e)}")
 
+
+
+@app.post("/v1/classify-pdf-itau", response_model=PdfClassifyResponse)
+async def classify_pdf_itau(file: UploadFile = File(...)):
+    """Recebe um PDF de fatura Itaú, extrai transações e devolve classificações em lote."""
+    if not file.filename.lower().endswith('.pdf'):
+        raise HTTPException(status_code=400, detail="Arquivo deve ser um PDF (.pdf)")
+
+    try:
+        file_bytes = await file.read()
+        if not file_bytes.startswith(b'%PDF'):
+            raise HTTPException(status_code=400, detail="Arquivo não é um PDF válido")
+
+        # Import local para evitar erro se o parser não estiver disponível no ambiente
+        try:
+            from services.pdf.itau_cartao_parser import parse_itau_fatura
+        except Exception as e:
+            raise HTTPException(status_code=500, detail="Parser Itaú não disponível no ambiente")
+
+        result = parse_itau_fatura(file_bytes)
+        items = result.get('items', []) or []
+        stats = result.get('stats', {})
+
+        # Converter para ExpenseTransaction
+        from datetime import datetime
+        expense_transactions = []
+        tx_view = []
+        for item in items:
+            # amount pode vir como string
+            amount_raw = item.get('amount', 0)
+            if isinstance(amount_raw, str):
+                amount = float(amount_raw.replace('.', '').replace(',', '.')) if ',' in amount_raw else float(amount_raw)
+            else:
+                amount = float(amount_raw)
+
+            date_str = item.get('date') or ''
+            # parser costuma retornar dd/mm ou iso; tentar ambos
+            date_obj = None
+            for fmt in (None, '%d/%m', '%d/%m/%Y'):
+                try:
+                    if fmt is None:
+                        date_obj = datetime.fromisoformat(date_str)
+                    else:
+                        date_obj = datetime.strptime(date_str, fmt)
+                    break
+                except Exception:
+                    continue
+            if date_obj is None:
+                # fallback: hoje
+                date_obj = datetime.utcnow()
+
+            installments = item.get('parcelas')
+            installment_number = item.get('numero_parcela')
+            last4 = item.get('last4')
+
+            expense_transactions.append(ExpenseTransaction(
+                description=item.get('description', ''),
+                amount=amount,
+                date=date_obj,
+                card_number=last4,
+                card_holder=None,
+                origin='credito',
+                installments=installments,
+                installment_number=installment_number,
+                raw_data=item,
+            ))
+            tx_view.append(PdfTransaction(
+                date=date_obj.date().isoformat(),
+                description=item.get('description', ''),
+                amount=amount,
+                last4=last4,
+                installments=installments,
+                installment_number=installment_number,
+            ))
+
+        if not expense_transactions:
+            return PdfClassifyResponse(rows=[], elapsed_ms=0.0, total_rows=0, parse_stats=stats)
+
+        start_time = time.perf_counter()
+        predictions, _ = pipeline.predict_batch(expense_transactions)
+        total_elapsed_ms = (time.perf_counter() - start_time) * 1000
+
+        rows = []
+        for tx, pred in zip(tx_view, predictions):
+            pred_resp = PredictionResponse(
+                label=pred.label,
+                confidence=pred.confidence,
+                method_used=pred.method_used,
+                elapsed_ms=pred.elapsed_ms,
+                transaction_id=pred.transaction_id,
+                needs_keys=pred.needs_keys,
+                raw_prediction=pred.raw_prediction,
+            )
+            rows.append(PdfClassifiedRow(transaction=tx, prediction=pred_resp))
+
+        return PdfClassifyResponse(rows=rows, elapsed_ms=total_elapsed_ms, total_rows=len(rows), parse_stats=stats)
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao processar PDF: {str(e)}")
 @app.get("/")
 async def root():
     """
