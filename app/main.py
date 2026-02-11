@@ -913,6 +913,116 @@ async def classify_pdf_itau(file: UploadFile = File(...)):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Erro ao processar PDF: {str(e)}")
+
+@app.post("/v1/classify-pdf-santander", response_model=PdfClassifyResponse)
+async def classify_pdf_santander(file: UploadFile = File(...), format: Optional[str] = None):
+    """Recebe um PDF Santander, extrai transações e devolve classificações em lote.
+
+    Query param `format=csv` retorna CSV (text/csv) para visualização rápida.
+    """
+    if not file.filename.lower().endswith('.pdf'):
+        raise HTTPException(status_code=400, detail="Arquivo deve ser um PDF (.pdf)")
+
+    try:
+        file_bytes = await file.read()
+        if not file_bytes.startswith(b'%PDF'):
+            raise HTTPException(status_code=400, detail="Arquivo não é um PDF válido")
+
+        try:
+            from services.pdf.santander_cartao_parser import parse_santander_fatura
+        except Exception:
+            raise HTTPException(status_code=500, detail="Parser Santander não disponível no ambiente")
+
+        result = parse_santander_fatura(file_bytes)
+        items = result.get('items', []) or []
+        stats = result.get('stats', {})
+
+        from datetime import datetime
+        expense_transactions = []
+        tx_view = []
+        for item in items:
+            amount_raw = item.get('amount', 0)
+            amount = float(amount_raw) if not isinstance(amount_raw, str) else float(amount_raw)
+
+            date_str = item.get('date') or ''
+            date_obj = None
+            for fmt in ('%d/%m/%Y','%d/%m'):
+                try:
+                    date_obj = datetime.strptime(date_str, fmt)
+                    break
+                except Exception:
+                    continue
+            if date_obj is None:
+                try:
+                    date_obj = datetime.fromisoformat(date_str)
+                except Exception:
+                    date_obj = datetime.utcnow()
+
+            installments = item.get('parcelas')
+            installment_number = item.get('numero_parcela')
+
+            expense_transactions.append(ExpenseTransaction(
+                description=item.get('description', ''),
+                amount=amount,
+                date=date_obj,
+                card_number=item.get('last4'),
+                card_holder=None,
+                origin='credito',
+                installments=installments,
+                installment_number=installment_number,
+                raw_data=item,
+            ))
+            tx_view.append(PdfTransaction(
+                date=date_obj.date().isoformat(),
+                description=item.get('description', ''),
+                amount=amount,
+                last4=item.get('last4'),
+                installments=installments,
+                installment_number=installment_number,
+            ))
+
+        if not expense_transactions:
+            return PdfClassifyResponse(rows=[], elapsed_ms=0.0, total_rows=0, parse_stats=stats)
+
+        start_time = time.perf_counter()
+        predictions, _ = pipeline.predict_batch(expense_transactions)
+        total_elapsed_ms = (time.perf_counter() - start_time) * 1000
+
+        rows = []
+        for tx, pred in zip(tx_view, predictions):
+            pred_resp = PredictionResponse(
+                label=pred.label,
+                confidence=pred.confidence,
+                method_used=pred.method_used,
+                elapsed_ms=pred.elapsed_ms,
+                transaction_id=pred.transaction_id,
+                needs_keys=pred.needs_keys,
+                raw_prediction=pred.raw_prediction,
+            )
+            rows.append(PdfClassifiedRow(transaction=tx, prediction=pred_resp))
+
+        # CSV output for quick visual check
+        if (format or '').lower() == 'csv':
+            import csv
+            import io
+            from fastapi.responses import StreamingResponse
+            buf = io.StringIO()
+            w = csv.writer(buf)
+            w.writerow(["date","description","amount","last4","installments","installment_number","label","confidence","method_used"])
+            for r in rows:
+                t=r.transaction
+                p=r.prediction
+                w.writerow([t.date,t.description,t.amount,t.last4,t.installments,t.installment_number,p.label,p.confidence,p.method_used])
+            buf.seek(0)
+            return StreamingResponse(iter([buf.getvalue()]), media_type='text/csv')
+
+        return PdfClassifyResponse(rows=rows, elapsed_ms=total_elapsed_ms, total_rows=len(rows), parse_stats=stats)
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Erro ao processar PDF: {str(e)}")
+
 @app.get("/")
 async def root():
     """
